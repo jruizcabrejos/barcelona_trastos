@@ -10,7 +10,7 @@ It is always a good opportunity to find something interesting.
 
 <img src="webcomic_Emmy_the_Robot_by_Dominic_Cellini_resize.jpg" />
 
-*From the webcomic Emmy the Robot by Dominic Cellini*
+*Panel from the webcomic [Emmy the Robot](https://www.webtoons.com/en/canvas/emmy-the-robot/list?title_no=402201) by Dominic Cellini*
 
 ## Acknowledgment
 
