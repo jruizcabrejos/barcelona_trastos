@@ -1,3 +1,6 @@
+<img src="webcomic_Emmy_the_Robot_by_Dominic_Cellini.jpg" />
+
+*From the webcomic Emmy the Robot by Dominic Cellini*
 
 # Residus: Mapa de Barcelona - Dies de Recollida de Mobles i Trastos
 Sempre una bona oportunitat per trobar alguna cosa interessant.
