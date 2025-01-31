@@ -19,7 +19,8 @@ Inspired on [Zara Patterson Google Map from 2010](https://www.google.com/maps/d/
 Unfortunately, the 2010 map made by Zara was last updated in 2016. 
 It is a miracle by itself that the map still exists and managed to survive in a service that Google hasn't been discontinue. [Unlike the faith of many other Google services.](https://www.theverge.com/2019/11/26/20977968/google-graveyard-products-shut-down-dead-not-supported-discontinues-spring-cleaning/archives/3)
 
-The town hall (Ajuntament/Municipality) of Barcelona only provides information [for each street individually](https://ajuntament.barcelona.cat/cercador-de-residus/ca)
+The town hall (Ajuntament/Municipality) of Barcelona only provides information on trash collection days [for each street individually.](https://ajuntament.barcelona.cat/cercador-de-residus/ca)
+
 The other alternative are maps for each district individually[(1)](https://ajuntament.barcelona.cat/horta-guinardo/es/noticia/muebles-y-trastos-viejos-el-dia-que-toca-3_1345274),[(2)](https://ajuntament.barcelona.cat/lescorts/es/noticia/mobles-i-trastos-vells-el-dia-que-toca-2_1346730),[(3)](https://ajuntament.barcelona.cat/gracia/ca/noticia/muebles-y-trastos-viejos-el-dia-que-toca-2_1345185). Some of these even have different presentations [(4)](https://ajuntament.barcelona.cat/gracia/ca/noticia/muebles-y-trastos-viejos-el-dia-que-toca-2_1345185).
 
 Since I couldn't find a complete map of trash (furniture) collection for Barcelona I have compiled the data from the Ajuntament website and made my own maps.
