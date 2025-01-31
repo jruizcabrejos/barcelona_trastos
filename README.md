@@ -31,4 +31,7 @@ They are now yours. Happy hunting.
 
 The raw data can be found in this repository. I might document this, eventually. 
 
+<img src="img/Barcelona_Basura_Muebles_Mapa_Dias.png" />
+
+<img src="img/Barcelona_Basura_Muebles_Mapa_Dias_puntos_raw_109.png" />
 
