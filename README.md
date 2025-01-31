@@ -38,5 +38,5 @@ The raw data can be found in this repository. I might document this, eventually.
 
 <img src="Barcelona_Basura_Muebles_Mapa_Dias.png" />
 
-<img src="Barcelona_Basura_Muebles_Mapa_Dias_puntos_raw_109.png" />
+<img src="Barcelona_Basura_Muebles_Mapa_Dias_AEB.png" />
 
