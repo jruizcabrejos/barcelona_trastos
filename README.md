@@ -8,16 +8,19 @@ Siempre es buena oportunidad para encontrar algo interesante
 # Trash: Barcelona Map - Furniture Pickup Days 
 It is always a good opportunity to find something interesting.
 
-Inspired on [Zara Patterson Google Map from 2010](https://www.google.com/maps/d/u/0/viewer?mid=1l2VAhplHwkWYhNi6WOcDeqnxPoE&ll=41.38994767203882%2C2.1714785646320367&z=13&fbclid=IwAR0Nz0oQug6qn9cU2yfmNpWFeOKMcscwQf2-Gp2Oiks0WavhvUgzlui5_FE) and her website https://caerengracia.wordpress.com/, in which she ["lists some resources to carry on restoration and renovation works ecologically"](https://caerengracia.wordpress.com/eco-recursos/).
+Inspired on [Zara Patterson Google Map from 2010](https://www.google.com/maps/d/u/0/viewer?mid=1l2VAhplHwkWYhNi6WOcDeqnxPoE&ll=41.38994767203882%2C2.1714785646320367&z=13&fbclid=IwAR0Nz0oQug6qn9cU2yfmNpWFeOKMcscwQf2-Gp2Oiks0WavhvUgzlui5_FE) and her website https://caerengracia.wordpress.com/, in which she ["lists resources to carry on restoration and renovation works ecologically"](https://caerengracia.wordpress.com/eco-recursos/).
 
 
-"Where and when can I salvage old, abandoned, furniture?" is a question that me, my friends, friends of friends, and coworkers have asked from time to time.
+"Where and when can I salvage old, abandoned, furniture in Barcelona?" is a question that me, my friends, friends of friends, and coworkers have asked from time to time.
 
-Unfortunately, the 2010 map was last updated in 2016, the town hall only provides information [for each street individually](https://ajuntament.barcelona.cat/cercador-de-residus/ca) and the most updated maps are cropped images for each district individually[1](https://ajuntament.barcelona.cat/horta-guinardo/es/noticia/muebles-y-trastos-viejos-el-dia-que-toca-3_1345274)[2](https://ajuntament.barcelona.cat/lescorts/es/noticia/mobles-i-trastos-vells-el-dia-que-toca-2_1346730)[3](https://ajuntament.barcelona.cat/gracia/ca/noticia/muebles-y-trastos-viejos-el-dia-que-toca-2_1345185) and with different presentations [4](https://ajuntament.barcelona.cat/gracia/ca/noticia/muebles-y-trastos-viejos-el-dia-que-toca-2_1345185).
+Unfortunately, the 2010 map was last updated in 2016.
 
-Here I compiled the data from the Ajuntament website and made my own maps.
+The town hall (Ajuntament/Municipality) only provides information [for each street individually](https://ajuntament.barcelona.cat/cercador-de-residus/ca)
+The other alternative are maps for each district individually[(1)](https://ajuntament.barcelona.cat/horta-guinardo/es/noticia/muebles-y-trastos-viejos-el-dia-que-toca-3_1345274),[(2)](https://ajuntament.barcelona.cat/lescorts/es/noticia/mobles-i-trastos-vells-el-dia-que-toca-2_1346730),[(3)](https://ajuntament.barcelona.cat/gracia/ca/noticia/muebles-y-trastos-viejos-el-dia-que-toca-2_1345185). Some of these even have different presentations [(4)](https://ajuntament.barcelona.cat/gracia/ca/noticia/muebles-y-trastos-viejos-el-dia-que-toca-2_1345185).
 
-They are now yours. 
+Since I couldn't find a complete map of trash (furniture) collection for Barcelona I have compiled the data from the Ajuntament website and made my own maps.
+
+They are now yours. Happy hunting.
 
 
 
