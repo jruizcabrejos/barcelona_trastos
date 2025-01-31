@@ -26,6 +26,8 @@ It is a miracle by itself that Zara's map managed to survive for this long in a 
 
 - The other alternative are maps for each district individually[(1)](https://ajuntament.barcelona.cat/horta-guinardo/es/noticia/muebles-y-trastos-viejos-el-dia-que-toca-3_1345274),[(2)](https://ajuntament.barcelona.cat/lescorts/es/noticia/mobles-i-trastos-vells-el-dia-que-toca-2_1346730),[(3)](https://ajuntament.barcelona.cat/gracia/ca/noticia/muebles-y-trastos-viejos-el-dia-que-toca-2_1345185). Some of these have different presentations [(4)](https://ajuntament.barcelona.cat/gracia/ca/noticia/muebles-y-trastos-viejos-el-dia-que-toca-2_1345185), making it hard to do any manual "stitching".
 
+- Same for other individual maps made for individual districts (e.g. [GeoBioCat](https://geobiocat.blogspot.com/2017/04/mapa-dia-dels-mobles-leixample.html))
+
 Since I couldn't find a complete map with days for trash (furniture) collection in Barcelona, I have compiled the data from the Ajuntament website and made my own maps.
 
 They are now yours. Happy hunting.
