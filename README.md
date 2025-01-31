@@ -1,4 +1,4 @@
-<img src="webcomic_Emmy_the_Robot_by_Dominic_Cellini.jpg" />
+<img src="webcomic_Emmy_the_Robot_by_Dominic_Cellini_resize.jpg" />
 
 *From the webcomic Emmy the Robot by Dominic Cellini*
 
