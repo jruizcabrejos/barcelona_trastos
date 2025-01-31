@@ -9,6 +9,7 @@ Siempre es buena oportunidad para encontrar algo interesante.
 It is always a good opportunity to find something interesting.
 
 <img src="webcomic_Emmy_the_Robot_by_Dominic_Cellini_resize.jpg" />
+
 *From the webcomic Emmy the Robot by Dominic Cellini*
 
 ## Acknowledgment
