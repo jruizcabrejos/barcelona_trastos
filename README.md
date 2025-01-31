@@ -1,6 +1,3 @@
-<img src="webcomic_Emmy_the_Robot_by_Dominic_Cellini_resize.jpg" />
-
-*From the webcomic Emmy the Robot by Dominic Cellini*
 
 # Residus: Mapa de Barcelona - Dies de Recollida de Mobles i Trastos
 Sempre una bona oportunitat per trobar alguna cosa interessant.
@@ -10,6 +7,9 @@ Siempre es buena oportunidad para encontrar algo interesante.
 
 # Waste: Barcelona Map - Furniture and Junk Collection Days
 It is always a good opportunity to find something interesting.
+
+<img src="webcomic_Emmy_the_Robot_by_Dominic_Cellini_resize.jpg" />
+*From the webcomic Emmy the Robot by Dominic Cellini*
 
 ## Acknowledgment
 
