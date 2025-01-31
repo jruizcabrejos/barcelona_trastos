@@ -10,6 +10,7 @@ It is always a good opportunity to find something interesting.
 
 Inspired on [Zara Patterson Google Map from 2010](https://www.google.com/maps/d/u/0/viewer?mid=1l2VAhplHwkWYhNi6WOcDeqnxPoE&ll=41.38994767203882%2C2.1714785646320367&z=13&fbclid=IwAR0Nz0oQug6qn9cU2yfmNpWFeOKMcscwQf2-Gp2Oiks0WavhvUgzlui5_FE) and her website https://caerengracia.wordpress.com/, in which she ["lists resources to carry on restoration and renovation works ecologically"](https://caerengracia.wordpress.com/eco-recursos/).
 
+## Intro
 
 "Where and when can I salvage old, abandoned, furniture in Barcelona?" is a question that me, my friends, friends of friends, and coworkers have asked from time to time.
 
@@ -22,6 +23,8 @@ Since I couldn't find a complete map of trash (furniture) collection for Barcelo
 
 They are now yours. Happy hunting.
 
+## Maps
 
+The raw data can be found in this repository. I might document this, eventually. 
 
 
