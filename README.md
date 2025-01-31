@@ -14,10 +14,13 @@ Inspired on [Zara Patterson Google Map from 2010](https://www.google.com/maps/d/
 
 ## Intro
 
-"Where and when can I salvage old, abandoned, furniture in Barcelona?" is a question that me, my friends, friends of friends, and coworkers have asked from time to time.
+"Where and when can I salvage old, abandoned, furniture in Barcelona?"
 
-Unfortunately, the 2010 map made by Zara was last updated in 2016. 
-It is a miracle by itself that the map still exists and managed to survive in a service that Google hasn't been discontinue. [Unlike the faith of many other Google services.](https://www.theverge.com/2019/11/26/20977968/google-graveyard-products-shut-down-dead-not-supported-discontinues-spring-cleaning/archives/3)
+This is a question that my friends, friends of friends, coworkers and myself have asked from time to time.
+
+Unfortunately, the main map of reference (2010 by Zara) was last updated in 2016. 
+
+It is a miracle by itself that Zara's map managed to survive for this long in a service hosted by Google, [unlike the faith of many other Google services that have been discontinued over time.](https://www.theverge.com/2019/11/26/20977968/google-graveyard-products-shut-down-dead-not-supported-discontinues-spring-cleaning/archives/3)
 
 - The town hall (Ajuntament/Municipality) of Barcelona only provides information on trash collection days [for each street individually.](https://ajuntament.barcelona.cat/cercador-de-residus/ca)
 
