@@ -1,11 +1,11 @@
 
-# Residus: Mapa de Barcelona - Dies de Mobles i Trastos
-Sempre és bona oportunitat per trobar alguna cosa interessant
+# Residus: Mapa de Barcelona - Dies de Recollida de Mobles i Trastos
+Sempre una bona oportunitat per trobar alguna cosa interessant.
 
-# Basura: Mapa de Barcelona - Días de Muebles y Trastos
-Siempre es buena oportunidad para encontrar algo interesante
+# Basura: Mapa de Barcelona - Días de Recojo de Muebles y Trastos
+Siempre es buena oportunidad para encontrar algo interesante.
 
-# Trash: Barcelona Map - Furniture Pickup Days 
+# Waste: Barcelona Map - Furniture and Junk Collection Days
 It is always a good opportunity to find something interesting.
 
 ## Acknowledgment
