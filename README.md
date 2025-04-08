@@ -1,4 +1,4 @@
-# Trastos and Furniture Map<br/>Collection Days and Areas for Barcelona, Spain<br/>
+# Trastos and Furniture Map<br/>Collection Days for Barcelona, Spain<br/>
 
 It is always a good opportunity to find something interesting.
 
