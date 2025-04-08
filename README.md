@@ -19,7 +19,9 @@ Unfortunately, the only real map available online was last updated in 2016 (Orig
 
 Since I couldn't find a **complete** map of Barcelona with the days for trash (furniture) collection, I have compiled the data from the Ajuntament website and made my own maps.
 
-They are now yours. Happy hunting.
+They are now yours. 
+
+Happy hunting.
 
 ## Maps
 
