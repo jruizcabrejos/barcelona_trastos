@@ -1,4 +1,5 @@
-# Barcelona Trastos and Furniture Map - Collection Days and Areas
+# Trastos and Furniture Map<br/>Collection Days and Areas for Barcelona, Spain<br/>
+
 It is always a good opportunity to find something interesting.
 
 <img src="webcomic_Emmy_the_Robot_by_Dominic_Cellini_resize_2.png" />
@@ -33,7 +34,7 @@ The raw data can be found in this repository. I might document this, eventually.
 
 It is a miracle by itself that Zara's map managed to survive for this long in a service hosted by Google, [unlike the faith of many other Google services that have been discontinued over time.](https://www.theverge.com/2019/11/26/20977968/google-graveyard-products-shut-down-dead-not-supported-discontinues-spring-cleaning/archives/3)
 
-It is also true that there are *some* resources out there, similar to what I have done here. However, they have several limitations:
+It is also true that there are _some_ resources out there, similar to what I have done here. However, they have several limitations:
 
 - The town hall (Ajuntament/Municipality) of Barcelona only provides information on trash collection days [for each street individually.](https://ajuntament.barcelona.cat/cercador-de-residus/ca)
 
