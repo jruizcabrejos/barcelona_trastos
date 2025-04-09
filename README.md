@@ -17,7 +17,7 @@ Inspired on [Zara Patterson Google Map from 2010](https://www.google.com/maps/d/
 This is a question that my friends, friends of friends, coworkers and myself have asked from time to time (as unlikely as it may sound). 
 Unfortunately, the only real map available online was last updated in 2016 (Originally made by Zara in 2010) . 
 
-Since I couldn't find a **complete** map of Barcelona with the days for trash (furniture) collection, I have compiled the data from the Ajuntament website and made my own maps.
+Since I couldn't find a **complete** map of Barcelona with the days of the week in which furniture/trastos (trash?) is collected, I have compiled the data from the Ajuntament website and made my own maps.
 
 They are now yours. 
 
