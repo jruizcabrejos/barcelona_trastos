@@ -29,9 +29,7 @@ Happy hunting.
 
 The raw data can be found in this repository. I might document this, eventually. 
 
-<img src="./image/Barcelona_Basura_Muebles_Mapa_Dias_puntos_raw_109.png" />
-
-<img src="./image/Barcelona_Basura_Muebles_Mapa_Dias_AEB.png" />
+<img src="./image/eng_Map_Barcelona_Furniture_Junk_Map_days.png" />
 
 
 ## Notes
