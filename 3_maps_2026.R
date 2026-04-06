@@ -309,7 +309,7 @@ AEB_plot <- ggplot() +
 
   theme_barcelona_trashmap()
 
-ggsave("./image/esp_Mapa_Barcelona_Muebles_Trastos_Dias_TEST.png",AEB_plot,
+ggsave("./image/esp_Mapa_Barcelona_Muebles_Trastos_Dias.png",AEB_plot,
        width=10,height=10,units="in",device="png",dpi=300)
 
 

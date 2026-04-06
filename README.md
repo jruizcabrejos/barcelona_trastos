@@ -4,7 +4,7 @@ It is always a good opportunity to find something interesting.
 
 Full blog entry at: https://jruizcabrejos.com/post/accessible-frugality-barcelona-trash-collection-data-20250201/
 
-<img src="webcomic_Emmy_the_Robot_by_Dominic_Cellini_resize_2.png" />
+<img src="./image/webcomic_Emmy_the_Robot_by_Dominic_Cellini_resize_2.png" />
 
 *Panel from the webcomic [Emmy the Robot](https://www.webtoons.com/en/canvas/emmy-the-robot/list?title_no=402201) by Dominic Cellini*
 
@@ -29,9 +29,9 @@ Happy hunting.
 
 The raw data can be found in this repository. I might document this, eventually. 
 
-<img src="Barcelona_Basura_Muebles_Mapa_Dias_puntos_raw_109.png" />
+<img src="./image/Barcelona_Basura_Muebles_Mapa_Dias_puntos_raw_109.png" />
 
-<img src="Barcelona_Basura_Muebles_Mapa_Dias_AEB.png" />
+<img src="./image/Barcelona_Basura_Muebles_Mapa_Dias_AEB.png" />
 
 
 ## Notes
