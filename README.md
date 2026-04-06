@@ -1,7 +1,5 @@
 # Trastos and Furniture Map<br/>Collection Days for Barcelona, Spain<br/>
 
-It is always a good opportunity to find something interesting.
-
 Full blog entry at: https://jruizcabrejos.com/post/accessible-frugality-barcelona-trash-collection-data-20250201/
 
 <img src="./image/webcomic_Emmy_the_Robot_by_Dominic_Cellini_resize_2.png" />
