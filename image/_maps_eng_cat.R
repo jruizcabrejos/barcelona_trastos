@@ -45,7 +45,7 @@ plot_dots <- ggplot()+
   ) +
 
   labs(title="Furniture and Junk Collection Days", subtitle="There's always a find.",
-       caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos",
+       caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos_eng",
                  "<br>Last Update:  &emsp; 05/04/2026 &#40;dd/mm/yyyy&#41;",
                  "<br><br>Source: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
 
@@ -105,7 +105,7 @@ plot_dots <- ggplot()+
   ) +
 
   labs(title="Dies de recollida de mobles i trastos", subtitle="Sempre es troba algun tresor.",
-       caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos",
+       caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos_cat",
                  "<br>Última Actualització:  &emsp; 05/04/2026 &#40;dd/mm/yyyy&#41;",
                  "<br><br>Font: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
 
@@ -162,7 +162,7 @@ AEB_plot <- ggplot() +
   ) +
 
   labs(title="Furniture and Junk Collection Days", subtitle="There’s always a find.",
-       caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos",
+       caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos_eng",
                  "<br>Last Update:  &emsp; 05/04/2026 &#40;dd/mm/yyyy&#41;",
                  "<br><br>Source: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
 
@@ -221,7 +221,7 @@ AEB_plot <- ggplot() +
   ) +
 
   labs(title="Dies de recollida de mobles i trastos", subtitle="Sempre es troba algun tresor.",
-       caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos",
+       caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos_cat",
                  "<br>Última Actualització:  &emsp; 05/04/2026 &#40;dd/mm/yyyy&#41;",
                  "<br><br>Font: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
 

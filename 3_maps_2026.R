@@ -288,7 +288,7 @@ plot_dots <- ggplot()+
   ) +
 
   labs(title="Días de Recojo de Muebles y Trastos", subtitle="Siempre hay algo que encontrar.",
-       caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos",
+       caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos_esp",
                  "<br>Última Actualización:  &emsp; 05/04/2026 &#40;dd/mm/yyyy&#41;",
                  "<br><br>Fuente: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
 
@@ -346,7 +346,7 @@ AEB_plot <- ggplot() +
   ) +
 
   labs(title="Días de Recojo de Muebles y Trastos", subtitle="Siempre hay algo que encontrar.",
-       caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos",
+       caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos_esp",
                  "<br>Última Actualización:  &emsp; 05/04/2026 &#40;dd/mm/yyyy&#41;",
                  "<br><br>Fuente: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
 
