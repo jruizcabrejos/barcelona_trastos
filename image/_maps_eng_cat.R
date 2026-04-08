@@ -23,12 +23,31 @@ plot_dots <- ggplot()+
   ## Barris
   geom_sf(data=sf_barris, fill=NA, color = alpha("black",.6), linetype = "dotted") +
   ## Districts
-  geom_sf(data=sf_districts, fill=NA, color = alpha("black"))+
+  geom_sf(data=sf_districts, fill=NA, color = alpha("black"))  +
+
+  ## Compass and Ruler
+  # ggspatial::annotation_scale(
+  #   location = "br",
+  #   width_hint = 0.2,
+  #   text_cex = 1.2 # Adjust scale bar text size here
+  # ) +
+  ggspatial::annotation_north_arrow(
+    location = "tr",
+    which_north = "true",
+    pad_x = unit(0.1, "in"),
+    pad_y = unit(0.3, "in"),
+
+    height = unit(2.25, "cm"),
+    width = unit(2.25, "cm"),
+    style = ggspatial::north_arrow_fancy_orienteering(
+      text_size = scale_factor_n * 11,line_width = 1,  # Adjust compass 'N' size here
+    )
+  ) +
 
   labs(title="Furniture and Junk Collection Days", subtitle="There's always a find.",
        caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos",
-                 "<br>Última Actualización:  &emsp; 29/01/2025 &#40;dd/mm/yyyy&#41;",
-                 "<br><br>Fuente: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
+                 "<br>Last Update:  &emsp; 05/04/2026 &#40;dd/mm/yyyy&#41;",
+                 "<br><br>Source: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
 
   guides(color = guide_legend(override.aes = list(size=5,alpha=1))) +
 
@@ -64,12 +83,31 @@ plot_dots <- ggplot()+
   ## Barris
   geom_sf(data=sf_barris, fill=NA, color = alpha("black",.6), linetype = "dotted") +
   ## Districts
-  geom_sf(data=sf_districts, fill=NA, color = alpha("black"))+
+  geom_sf(data=sf_districts, fill=NA, color = alpha("black"))  +
+
+  ## Compass and Ruler
+  # ggspatial::annotation_scale(
+  #   location = "br",
+  #   width_hint = 0.2,
+  #   text_cex = 1.2 # Adjust scale bar text size here
+  # ) +
+  ggspatial::annotation_north_arrow(
+    location = "tr",
+    which_north = "true",
+    pad_x = unit(0.1, "in"),
+    pad_y = unit(0.3, "in"),
+
+    height = unit(2.25, "cm"),
+    width = unit(2.25, "cm"),
+    style = ggspatial::north_arrow_fancy_orienteering(
+      text_size = scale_factor_n * 11,line_width = 1,  # Adjust compass 'N' size here
+    )
+  ) +
 
   labs(title="Dies de recollida de mobles i trastos", subtitle="Sempre es troba algun tresor.",
        caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos",
-                 "<br>Última Actualización:  &emsp; 29/01/2025 &#40;dd/mm/yyyy&#41;",
-                 "<br><br>Fuente: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
+                 "<br>Última Actualització:  &emsp; 05/04/2026 &#40;dd/mm/yyyy&#41;",
+                 "<br><br>Font: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
 
   guides(color = guide_legend(override.aes = list(size=5,alpha=1))) +
 
@@ -89,7 +127,10 @@ AEB_plot <- ggplot() +
   geom_sf(data=sf_roads,fill=NA, color=alpha("grey50"))+
 
   ## Data layer
-  geom_sf(data=sf_AEB, # Inside Barcelona
+  geom_sf(data=sf_AEB%>% # Inside Barcelona
+            group_by(AEB) %>%
+            slice(1) %>% # Keep unique LAT/LON
+            ungroup(), # Inside Barcelona
 
           aes(fill=Time_custom_eng, geometry = geometry),alpha=0.7, size=0.5)+
   scale_fill_manual(values = colors,
@@ -99,12 +140,31 @@ AEB_plot <- ggplot() +
   ## Barris
   geom_sf(data=sf_barris, fill=NA, color = alpha("black",.6), linewidth =0.2) +
   ## Districts
-  geom_sf(data=sf_districts, fill=NA, color = alpha("black"),linewidth=0.8)+
+  geom_sf(data=sf_districts, fill=NA, color = alpha("black"),linewidth=0.8)  +
+
+  ## Compass and Ruler
+  # ggspatial::annotation_scale(
+  #   location = "br",
+  #   width_hint = 0.2,
+  #   text_cex = 1.2 # Adjust scale bar text size here
+  # ) +
+  ggspatial::annotation_north_arrow(
+    location = "tr",
+    which_north = "true",
+    pad_x = unit(0.1, "in"),
+    pad_y = unit(0.3, "in"),
+
+    height = unit(2.25, "cm"),
+    width = unit(2.25, "cm"),
+    style = ggspatial::north_arrow_fancy_orienteering(
+      text_size = scale_factor_n * 11,line_width = 1,  # Adjust compass 'N' size here
+    )
+  ) +
 
   labs(title="Furniture and Junk Collection Days", subtitle="There’s always a find.",
        caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos",
-                 "<br>Última Actualización:  &emsp; 29/01/2025 &#40;dd/mm/yyyy&#41;",
-                 "<br><br>Fuente: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
+                 "<br>Last Update:  &emsp; 05/04/2026 &#40;dd/mm/yyyy&#41;",
+                 "<br><br>Source: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
 
   guides(color = guide_legend(override.aes = list(size=5,alpha=1))) +
 
@@ -126,7 +186,10 @@ AEB_plot <- ggplot() +
   geom_sf(data=sf_roads,fill=NA, color=alpha("grey50"))+
 
   ## Data layer
-  geom_sf(data=sf_AEB, # Inside Barcelona
+  geom_sf(data=sf_AEB %>% # Inside Barcelona
+            group_by(AEB) %>%
+            slice(1) %>% # Keep unique LAT/LON
+            ungroup(), # Inside Barcelona
 
           aes(fill=Time_custom_cat, geometry = geometry),alpha=0.7, size=0.5)+
   scale_fill_manual(values = colors,
@@ -136,12 +199,31 @@ AEB_plot <- ggplot() +
   ## Barris
   geom_sf(data=sf_barris, fill=NA, color = alpha("black",.6), linewidth =0.2) +
   ## Districts
-  geom_sf(data=sf_districts, fill=NA, color = alpha("black"),linewidth=0.8)+
+  geom_sf(data=sf_districts, fill=NA, color = alpha("black"),linewidth=0.8)  +
+
+  ## Compass and Ruler
+  # ggspatial::annotation_scale(
+  #   location = "br",
+  #   width_hint = 0.2,
+  #   text_cex = 1.2 # Adjust scale bar text size here
+  # ) +
+  ggspatial::annotation_north_arrow(
+    location = "tr",
+    which_north = "true",
+    pad_x = unit(0.1, "in"),
+    pad_y = unit(0.3, "in"),
+
+    height = unit(2.25, "cm"),
+    width = unit(2.25, "cm"),
+    style = ggspatial::north_arrow_fancy_orienteering(
+      text_size = scale_factor_n * 11,line_width = 1,  # Adjust compass 'N' size here
+    )
+  ) +
 
   labs(title="Dies de recollida de mobles i trastos", subtitle="Sempre es troba algun tresor.",
        caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos",
-                 "<br>Última Actualización:  &emsp; 29/01/2025 &#40;dd/mm/yyyy&#41;",
-                 "<br><br>Fuente: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
+                 "<br>Última Actualització:  &emsp; 05/04/2026 &#40;dd/mm/yyyy&#41;",
+                 "<br><br>Font: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
 
   guides(color = guide_legend(override.aes = list(size=5,alpha=1))) +
 

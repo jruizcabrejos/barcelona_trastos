@@ -2,7 +2,7 @@ library(tidyverse)
 library(RJSONIO)
 library(jsonlite)
 
-df_trastos <- read_csv("./outdata/raw_scrapped_data20260127_temp.csv")
+df_trastos <- read_csv("./outdata/raw_scrapped_data20260407_temp.csv")
 
 df_trastos <- df_trastos %>%
   mutate(lon = NA,

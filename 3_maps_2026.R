@@ -21,8 +21,11 @@ library(ggridges)
 library(ggpubr)
 library(magick)
 library(sf)
+library(ggspatial)
 
-theme_barcelona_trashmap <- function(scale_factor = 5) {
+scale_factor_n <- 5
+
+theme_barcelona_trashmap <- function(scale_factor = scale_factor_n) {
   theme_void() +
     theme(
       ## Background Off-white/Cream
@@ -99,13 +102,14 @@ sf_roads <- sf::st_read("./indata/BCN_GrafVial_SHP/BCN_GrafVial_Trams_ETRS89_SHP
 sf_cens <- sf::st_read("./indata/Barcelona_shp/0301040100_SecCens_UNITATS_ADM.shp")
 
 ## Read data
-df <- read_csv("./outdata/geocoded_scrapped_data20260401.csv") %>%
+# df <- read_csv("./outdata/geocoded_scrapped_data20260401.csv") %>%
+df <- read_csv("./outdata/geocoded_scrapped_data20260408.csv") %>%
 
-  bind_rows(read_csv("./outdata/extra_geocoded_1.csv")) %>%
-  bind_rows(read_csv("./outdata/extra_geocoded_2.csv")) %>%
+  # bind_rows(read_csv("./outdata/extra_geocoded_1.csv")) %>%
+  # bind_rows(read_csv("./outdata/extra_geocoded_2.csv")) %>%
   ## Clean variables
   janitor::clean_names() %>%
-  dplyr::select(-c(x1,x2)) %>%
+  dplyr::select(-c(x1)) %>%
 
   ## Filter out "muebles y trastos viejos en el teléfono 010"
   filter(nchar(time) < 50) %>%
@@ -262,11 +266,30 @@ plot_dots <- ggplot()+
   ## Barris
   geom_sf(data=sf_barris, fill=NA, color = alpha("black",.6), linetype = "dotted") +
   ## Districts
-  geom_sf(data=sf_districts, fill=NA, color = alpha("black"))+
+  geom_sf(data=sf_districts, fill=NA, color = alpha("black")) +
+
+  ## Compass and Ruler
+  # ggspatial::annotation_scale(
+  #   location = "br",
+  #   width_hint = 0.2,
+  #   text_cex = 1.2 # Adjust scale bar text size here
+  # ) +
+  ggspatial::annotation_north_arrow(
+    location = "tr",
+    which_north = "true",
+    pad_x = unit(0.1, "in"),
+    pad_y = unit(0.3, "in"),
+
+    height = unit(2.25, "cm"),
+    width = unit(2.25, "cm"),
+    style = ggspatial::north_arrow_fancy_orienteering(
+      text_size = scale_factor_n * 11,line_width = 1,  # Adjust compass 'N' size here
+    )
+  ) +
 
   labs(title="Días de Recojo de Muebles y Trastos", subtitle="Siempre hay algo que encontrar.",
        caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos",
-                 "<br>Última Actualización:  &emsp; 29/01/2025 &#40;dd/mm/yyyy&#41;",
+                 "<br>Última Actualización:  &emsp; 05/04/2026 &#40;dd/mm/yyyy&#41;",
                  "<br><br>Fuente: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
 
   guides(color = guide_legend(override.aes = list(size=5,alpha=1)))  +
@@ -288,7 +311,10 @@ AEB_plot <- ggplot() +
   geom_sf(data=sf_roads,fill=NA, color=alpha("grey50"))+
 
   ## Data layer
-  geom_sf(data=sf_AEB, # Inside Barcelona
+  geom_sf(data=sf_AEB %>% # Inside Barcelona
+            group_by(AEB) %>%
+            slice(1) %>% # Keep unique LAT/LON
+            ungroup(), # Inside Barcelona
 
           aes(fill=Time_custom, geometry = geometry),alpha=0.7, size=0.5)+
   scale_fill_manual(values = colors,
@@ -298,11 +324,30 @@ AEB_plot <- ggplot() +
   ## Barris
   geom_sf(data=sf_barris, fill=NA, color = alpha("black",.6), linewidth =0.2) +
   ## Districts
-  geom_sf(data=sf_districts, fill=NA, color = alpha("black"),linewidth=0.8)+
+  geom_sf(data=sf_districts, fill=NA, color = alpha("black"),linewidth=0.8)  +
+
+  ## Compass and Ruler
+  # ggspatial::annotation_scale(
+  #   location = "br",
+  #   width_hint = 0.2,
+  #   text_cex = 1.2 # Adjust scale bar text size here
+  # ) +
+  ggspatial::annotation_north_arrow(
+    location = "tr",
+    which_north = "true",
+    pad_x = unit(0.1, "in"),
+    pad_y = unit(0.3, "in"),
+
+    height = unit(2.25, "cm"),
+    width = unit(2.25, "cm"),
+    style = ggspatial::north_arrow_fancy_orienteering(
+      text_size = scale_factor_n * 11,line_width = 1,  # Adjust compass 'N' size here
+    )
+  ) +
 
   labs(title="Días de Recojo de Muebles y Trastos", subtitle="Siempre hay algo que encontrar.",
        caption=c("<p><span style='font-family:emojis'>&#xe901;</span> /jruizcabrejos/barcelona_trastos",
-                 "<br>Última Actualización:  &emsp; 29/01/2025 &#40;dd/mm/yyyy&#41;",
+                 "<br>Última Actualización:  &emsp; 05/04/2026 &#40;dd/mm/yyyy&#41;",
                  "<br><br>Fuente: https:&#47;&#47;www&#46;ajuntament.barcelona.cat/cercador-de-residus</p>"))+
 
   guides(color = guide_legend(override.aes = list(size=5,alpha=1)))  +
